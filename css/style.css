@@ -1,0 +1,240 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    margin: 12px 18px 13px 0px;
+    max-width: 100%;
+}
+
+header {
+    background-color: #8979F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.rakib {}
+
+.rakib img {}
+
+nav {}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 0 0 35px;
+    color: white;
+    font-weight: 900;
+}
+
+/* section banner start 1 */
+
+section {}
+
+.banner {
+    background-color: #8979F3;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding: 0 0 0 0;
+}
+
+.banner p {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* balti section start */
+
+.balti {
+    display: flex;
+    justify-content: space-between;
+}
+
+.balti-item {
+    width: 38%;
+    margin: 75px;
+}
+
+.balti-item img {}
+
+.balti-item h1 {
+    font-size: 33px;
+}
+
+.balti-item p {
+    color: #000000b3;
+}
+
+.mog {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* footer section start  */
+
+footer {
+    background-color: #8979f342;
+    padding: 57px;
+}
+
+.jeep-text {
+    display: flex;
+    padding: 1px;
+    justify-content: space-between;
+}
+
+.foodball-item {
+    width: 21%;
+    padding: -6px;
+}
+
+.foodball-item h3 {}
+
+.foodball-item li {
+    list-style: none;
+    padding: 11px;
+    text-align: justify;
+}
+
+.foodball-item li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* mobile device */
+@media only screen and (max-width:600px) {
+    header {
+        display: block;
+        padding: 10px;
+        align-items: left;
+        text-align: center;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+
+    }
+
+    nav ul li a {
+
+        margin: 20px 6px 0 4px;
+
+        font-weight: 400;
+
+    }
+
+
+
+    /* section banner start 1 */
+
+    section {}
+
+    .banner {
+        padding: 20px;
+    }
+
+    .banner h1 {
+        margin: 10px;
+        font-size: 35px;
+    }
+
+    .banner p {
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: 20px;
+    }
+
+
+    /* balti section start */
+
+    .balti {
+        display: block;
+        margin: 20px;/
+    }
+
+    .balti-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .balti-item img {
+        max-width: 100%;
+    }
+
+    .balti-item h1 {
+        font-size: 20px;
+    }
+
+
+    /* footer section start  */
+
+    footer {
+        padding: 20px;
+    }
+
+    .jeep-text {
+        display: block;
+        padding: 10px;
+
+    }
+
+    .foodball-item {
+        width: 100%;
+    }
+
+    .foodball-item h3 {}
+
+    .foodball-item li {
+        padding: 5px;
+    }
+
+    .foodball-item li a {
+        color: black;
+    }
+
+}
+
+/* mediam mobile, tablet  */
+@media only screen and (min-width:601px) and (max-width:768px) {
+    header {
+        background-color: green;
+    }
+}
+
+/* tablet landscape,large tablet */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    header {
+        background-color: blue;
+    }
+}
+
+/* square desktop,small laptop */
+@media only screen and (min-width:993px) and (max-width:1024px) {
+    header {
+        background-color: chocolate;
+    }
+}
